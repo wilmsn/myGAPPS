@@ -44,7 +44,10 @@ This will only be included if you answer "Delete old GAPPS from existing ROM [y/
 instgapps.txt: Change it the way you like it
 This will allways be included
 
-
+Tested with:
+------------
+Samsung Galaxy S plus running CM 11 by ADC Team
+Nexus 7 (grouper) running SlimROMs CM 11
 
 
 
