@@ -1,0 +1,8 @@
+ui_print("Installing new Google Apps...");
+package_extract_dir("system", "/system");
+ui_print("Fixing Permissions...");
+set_perm_recursive(0, 0, 0755, 0644, "/system/app");
+set_perm_recursive(0, 0, 0755, 0644, "/system/priv-app");
+ui_print("Unmounting system...");
+run_program("/sbin/busybox", "umount", "/system");
+ui_print("Installation complete!");
