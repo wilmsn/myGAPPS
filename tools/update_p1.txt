@@ -1,0 +1,6 @@
+ui_print(" ");
+ui_print("Make your own GAPPS");
+ui_print(" ");
+ui_print("   by N.Wilms");
+ui_print("Mounting system...");
+run_program("/sbin/busybox", "mount", "/system");

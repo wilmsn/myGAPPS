@@ -5,13 +5,7 @@ md extract
 md mygapps
 cd tools
 echo Now configuring your GAPPS....
-echo ui_print(" "); > updater-script
-echo ui_print("Make your own GAPPS"); >> updater-script
-echo ui_print(" "); >> updater-script
-echo ui_print("   by N.Wilms"); >> updater-script
-echo ui_print("Mounting system..."); >> updater-script
-echo run_program("/sbin/busybox", "mount", "/system"); >> updater-script
-echo show_progress(10, 10); >> updater-script
+type update_p1.txt > updater-script
 echo I can delete the old GAPPS from your ROM.
 echo For Details look at "tools/deloldgapps.txt"
 echo If you have anything more to delete place it there!

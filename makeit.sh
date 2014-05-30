@@ -11,15 +11,9 @@ mkdir mygapps
 mkdir extract
 cd tools
 echo "Now configuring your GAPPS...."
-echo "ui_print(\" \");" > updater-script
-echo "ui_print(\"Make your own GAPPS\");" >> updater-script
-echo "ui_print(\" \");" >> updater-script
-echo "ui_print(\"   by N.Wilms\");" >> updater-script
-echo "ui_print(\"Mounting system...\");" >> updater-script
-echo "run_program(\"/sbin/busybox\", \"mount\", \"/system\");" >> updater-script
-echo "show_progress(10, 10);" >> updater-script
+cat update_p1.txt > updater-script
 echo "I can delete the old GAPPS from your ROM."
-echo "For Details look at "tools/deloldgapps.txt""
+echo "For Details look at tools/deloldgapps.txt"
 echo "If you have anything more to delete place it there!"
 echo
 echo -n "Delete old GAPPS from existing ROM [y/n]?:"
@@ -27,7 +21,6 @@ read delOLD
 if [ $delOLD == "y" ]; then
  cat deloldgapps.txt >> updater-script
 fi
-echo "show_progress(10, 10);" >> updater-script
 cat instgapps.txt >> updater-script
 echo "Now extracting ....."
 7z x -o../extract ../*.zip META-INF/CERT.RSA > output.txt
