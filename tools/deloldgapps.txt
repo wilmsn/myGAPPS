@@ -31,3 +31,4 @@ delete("/system/priv-app/talkback.apk");
 delete("/system/app/SetupWizard.apk");
 delete("/system/app/Velvet.apk");
 delete("/system/app/GoogleEars.apk");
+
