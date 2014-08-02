@@ -4,9 +4,9 @@ myGAPPS
 myGAPPS: create your own GAPPS for KitKat: small or big as you like it  
 By default you will create very small GAPPS (only 16MB)!
 
-The scripts will run on WINDOWS.
+The script "makeit.bat" will run on WINDOWS, "makeit.sh" will run on Linux.
 This repository contains only the basic scripts.
-You have to load some additional software:
+The following software is included for easy usage:
 
 dos2unix
 -------- 
