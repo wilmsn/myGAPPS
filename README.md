@@ -22,8 +22,8 @@ Get it from here: http://heanet.dl.sourceforge.net/project/sevenzip/7-Zip/4.42/7
 
 Installing:
 -----------
-1) Download my scripts https://github.com/wilmsn/myGAPPS/archive/master.zip and extract them at a place on your choice on your computer, called <myGAPPS> later.
-2) Goto <myGAPPS>\tools
+1) Download my scripts https://github.com/wilmsn/myGAPPS/archive/master.zip and extract them at a place on your choice on your computer, called &lt;myGAPPS&gt; later.
+2) Goto &lt;myGAPPS&gt;\tools
 3) Extract dos2unix here
 4) Extract 7za442.zip here
 5) Extract here this files from the sign archive: signapk.jar, testkey.pk8, testkey.x509.pem
@@ -32,7 +32,7 @@ Installing:
 Creating a GAPPS version:
 -------------------------
 1) Download you favorite GAPPS as installable zip file
-2) Place it in <myGAPPS>
+2) Place it in &lt;myGAPPS&gt;
 3) Start makeit.bat
 4) You will find the result in <myGAPPS>\myGAPPS
 
