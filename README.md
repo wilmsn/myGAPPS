@@ -46,9 +46,8 @@ This will allways be included<br>
 
 Tested with:
 ------------
-<pre>
-Samsung Galaxy S plus running CM 11 by ADC Team
+Samsung Galaxy S plus running CM 11 by ADC Team<br>
 Nexus 7 (grouper) running SlimROMs CM 11
-</pre>
+
 
 
